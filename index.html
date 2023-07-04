@@ -353,9 +353,9 @@ ul{
                 <button onclick="document.location.reload(true)">restart</button>
             </div>
             <div class="RESULT">
-            <h2 id="result" style="font-size: 110%;"></h2>
+            <h2 id="result" style="font-size: 20px;"></h2>
             <br>
-            <h2 id="result1" style="font-size: 110%;"></h2>
+            <h2 id="result1" style="font-size: 20px;"></h2>
             <br><br>
             </div>
         </div>
@@ -415,6 +415,11 @@ ul{
             document.getElementById("project").innerHTML="Daylength";
             document.getElementById("title1").innerHTML="Daylength";
             document.getElementById("title").innerHTML="Project Daylength";
+            document.getElementById("day").value = "";
+            document.getElementById("month").value = "";
+            document.getElementById("year").value = "";
+            document.getElementById("result").innerHTML="";
+            document.getElementById("result1").innerHTML="";
         }
 
         function member(){
@@ -425,8 +430,8 @@ ul{
             document.getElementById('left1').style.display="none";
             document.getElementById('right1').style.display="none";
             document.getElementById('marquee').innerHTML="Welcome to my Project";
-            document.getElementById("project").innerHTML="Daylength";
-            document.getElementById("title1").innerHTML="Daylength";
+            document.getElementById("project").innerHTML="Group 10";
+            document.getElementById("title1").innerHTML="Group Member";
             document.getElementById("title").innerHTML="Project Daylength";
         }
         function reference(){
@@ -437,7 +442,7 @@ ul{
             document.getElementById('left1').style.display="none";
             document.getElementById('right1').style.display="none";
             document.getElementById('marquee').innerHTML="Welcome to my Project";
-            document.getElementById("project").innerHTML="Daylength";
+            document.getElementById("project").innerHTML="Reference";
             document.getElementById("title1").innerHTML="Daylength";
             document.getElementById("title").innerHTML="Project Daylength";
         }
